@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .background-icon {
+    height: 528px;
+    object-fit: cover;
+  }
+  .background-icon,
+  .frame-child,
+  .frame-item {
+    position: relative;
+    width: 1540px;
+    flex-shrink: 0;
+  }
+  .frame-child {
+    background: linear-gradient(100deg, #32a6e7, rgba(197, 23, 169, 0));
+    height: 358px;
+  }
+  .frame-item {
+    background-color: #99048a;
+    height: 137px;
+  }
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+   
+  }
+  .desktop-child {
+    position: absolute;
+    top: 258px;
+    left: 700px;
+    border-radius: 30px;
+    width: 144px;
+    height: 76px;
+  }
+
+  .desktop-child .btn {
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f09;;
+    color: black;
+    font-size: 24px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .desktop-child .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .drowsiness-detection,
+  .true-prevention-is {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+  }
+  .drowsiness-detection {
+    top: 160px;
+    left: 350px;
+    font-size: 64px;
+    font-weight: 800;
+    width: 1058px;
+    height: 94px;
+  }
+  .true-prevention-is {
+    top: 621px;
+    left: 75px;
+    font-size: 48px;
+    color: #0d0d2d;
+    width: 1350px;
+    height: 204px;
+  }
+  .you-snooze-it {
+    position: absolute;
+    top: 905px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 102px;
+    direction: left;
+  }
+  .desktop {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 32px;
+    color:#fafafa;
+  }
+  

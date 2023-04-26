@@ -1,0 +1,1 @@
+If eyes are not closed decrement the score
